@@ -32,6 +32,9 @@ Route::get('/dashboard', function () {
     return view('dash.index');
 });
 
+Route::get('/dashboard', function () {
+    return view('dash.index');
+});
 
 
 
